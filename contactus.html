@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVENTS</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="icon" href="./images/mainlogos/NSS_new_logo.png">
+    <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+    <style>
+        .colrc1 {
+            color: rgb(170, 148, 27);
+        }
+        .colrc2{
+            background-color: #A0E7FD;
+        }
+        .cus-btn-clr{
+            background-color: #0E3570;
+        }
+
+        .containerC1 {
+            background-color: #0E3570;
+            height: 100px;
+        }
+
+        .ellipse {
+            position: absolute;
+            left: 20%;
+            transform: translate(-50%, -50%);
+            width: 20%;
+            height: 20%;
+            background-color: #A0E7FD;
+            ;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .ellipse-text {
+            position: absolute;
+            top: 0%;
+            left: 14%;
+            margin: 0;
+            color: #0E3570;
+        }
+
+        @media (max-width: 470px) {
+            .containerC1 {
+                height: 100px;
+            }
+
+            .ellipse {
+                top: 1%;
+                left: 75%;
+                width: 32%;
+                height: 18%;
+            }
+
+            .ellipse-text {
+                right: 4.2%;
+            }
+        }
+
+        @media (min-width: 470px) and (max-width: 576px) {
+            .containerC1 {
+                height: 100px;
+            }
+
+            .ellipse {
+                top: 1%;
+                left: 75%;
+                width: 32%;
+                height: 20%;
+            }
+
+            .ellipse-text {
+                right: 8%;
+            }
+        }
+
+        @media (min-width: 576px) and (max-width: 768px) {
+            .ellipse {
+                top: 1%;
+                width: 25%;
+                height: 20%;
+            }
+
+            .ellipse-text {
+                right: 12%;
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 992px) {
+            .ellipse {
+                width: 20%;
+                height: 20%;
+            }
+
+            .ellipse-text {
+                right: 12.3%;
+            }
+        }
+
+        @media (min-width: 992px) and (max-width: 1200px) {
+            .ellipse {
+                width: 20%;
+                height: 25%;
+            }
+
+            .ellipse-text {
+                right: 14%;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .ellipse {
+                width: 20%;
+                height: 25%;
+            }
+
+            .ellipse-text {
+                right: 16%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="containerC1">
+        <div class="row justify-content-center">
+            <div class="col-6">
+                <div class="ellipse"></div>
+                <p class="fs-2 mt-4 fw-bold ellipse-text">CONTACT US</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-flex container-fluid" style="background-color: #0E3570;">
+        <div class="container col-lg-10 col-md-10 col-xl-8 col-sm-6 col-9">
+            <div class="row mt-4">
+                <div class="col-md-6 col-lg-4 col-sm-12 col-8 mb-4">
+                    <div class="card bg-transparent border-0" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title text-center colrc1 fw-bold">Address</h5>
+                            <p class="card-text text-white text-center fw-bolder">GVPCE-(A)<br>
+                                Madhurawada<br>
+                                Visakhapatnam-530048<br>
+                                Andhra Pradesh<br>
+                                India</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-sm-12 col-8 mb-4">
+                    <div class="card bg-transparent border-0" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title text-center colrc1 fw-bold">Location</h5>
+                            <iframe class="card-text fw-bolder" width="300" height="200" frameborder="0"
+                                style="border:0"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3557.4934298353543!2d83.342295!3d17.8204597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a395bedc7efb603%3A0x87c06caab54e902a!2sGayatri%20Vidya%20Parishad%20College%20of%20Engineering%20(Autonomous)%20(GVP)%20(GVPCE)!5e0!3m2!1sen!2sin!4v1620157003507!5m2!1sen!2sin"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-sm-12 col-8">
+                    <div class="card bg-transparent border-0" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title text-center colrc1 fw-bold">Contact Info</h5>
+                            <p class="card-text text-white text-center fw-normal">
+                                Unit-1 President:<br>
+                                +91 79936 69263<br>
+                                Unit-2 President:<br>
+                                +91 81424 17516
+                            </p>
+                            <h5 class="card-title text-center colrc1 fw-bold">Follow Us</h5>
+                            <div class="d-flex justify-content-around">
+                                <a href="https://www.instagram.com/gvpcenss/"><i class="fa fa-instagram fs-1 text-white"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <form class="row">
+       <div class="d-flex flex-column align-items-center colrc2">
+        <div class="col-6 mb-2 mt-3 ">
+            <div class="form-floating">
+              <input type="text" class="form-control" id="floatingName" placeholder="Your Name">
+              <label for="floatingName">Enter Your Name</label>
+            </div>
+          </div>
+          <div class="col-6 mb-2">
+            <div class="form-floating">
+              <input type="email" class="form-control" id="floatingEmail" placeholder="Your Email">
+              <label for="floatingEmail">Enter Your Email</label>
+            </div>
+          </div>
+          <div class="col-6 mb-2">
+            <div class="form-floating">
+              <textarea class="form-control" placeholder="Address" id="floatingTextarea" style="height: 100px;"></textarea>
+              <label for="floatingTextarea">Comments</label>
+            </div>
+          </div>
+          <div class="text-center mb-2">
+            <button type="submit" class="btn cus-btn-clr text-white">Submit</button>
+            <button type="reset" class="btn btn-secondary">Reset</button>
+          </div>
+
+       </div>
+      </form>
+</body>
+
+</html>
