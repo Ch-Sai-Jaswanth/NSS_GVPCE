@@ -24,10 +24,25 @@
                 transform: translate(-50%, -50%);
                 margin: 0;
             }
+            .img1 {
+                height: 10rem;
+                width: 10rem;
+            }
+            @media (max-width: 576px) { 
+                .xs-class {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .xs-image {
+                    height: 8rem;
+                    width: 8rem;
+                }
+            }
         </style>
     </head>
     <body>
-        <div class="container-fluid" style="background-color: #0E3570; height: 220px;">
+        <div class="container-fluid" style="background-color: #0E3570; height: 145px;">
             <div class="row justify-content-center">
                 <div class="col-6">
                     <div class="ellipse"></div>
@@ -36,6 +51,69 @@
                 <div class="col-4">
                     <p class="fs-2 mt-4 fw-bold text-white text-end">NSS UNIT-1</p>
                     <p class="fs-2 mt-4 fw-bold text-white text-end">NSS UNIT-2</p>
+                </div>
+            </div>
+        </div>
+        <div class="center-container-fluid mt-2" style="display:flex; align-items:center; justify-content:center;">
+            <div class="card text-white rounded-5" style="width: 300px; background-color:#0E3570">
+                <div class="card-body text-center">
+                    <h2 class="card-title">CHAIRMAN</h2>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="card">
+            <img src="./images/mainlogos/NSS_new_logo_1.png" class="card-img-top" alt="Chairman">
+            <div class="card-body">
+              <h5 class="card-title text-dark fw-bold">Prof. Dr. A. B. Koteswara Rao</h5>
+              <p class="card-text text">PRINCIPAL</p>
+            </div>
+        </div> -->
+        <div class="container d-flex align-items-center justify-content-center" style="height: 30vh; margin-top:6.5rem;">
+            <div class="row">
+                <div class="col-md-6 col-lg-4 col-sm-12 col-8 mb-4">
+                    <div class="card text-center border-0" style="width: 20rem;">
+                        <div class="card-body rounded-5" style="background-color:#A0E7FD;">
+                            <img src="./images/Faculty/Chairman_logo_1.png" class="card-img-top rounded-circle mx-auto d-block" alt="Chairman" style="height: 10rem; width: 10rem; margin-top: -7rem;">
+                            <h5 class="card-title text-primary fw-bolder">Dr. A. B. Koteswara Rao</h5>
+                            <p class="card-text text-primary">PRINCIPAL</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="center-container-fluid" style="display:flex; align-items:center; justify-content:center; margin-top:-1rem;">
+            <div class="card text-white rounded-5 col-md-4" style="background-color:#0E3570">
+                <div class="card-body text-center">
+                    <h2 class="card-title fs-4">FACULTY CO-ORDINATORS</h2>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-around mt-4 xs-class">
+            <div class="card border-0">
+                <div class="row g-1 d-flex align-items-center">
+                  <div class="col-3 col-md-4 bg-transparent position-relative">
+                    <img src="./images/Faculty/Prog_Officer_logo_1.png" class="card-img rounded-circle mx-auto d-block xs-image img1" alt="Prog. Officer">
+                  </div>
+                  <div class="col-9 col-md-8 rounded-5" style="background-color:#2D62B1; height:7rem; width:18rem; margin-left:-1.5rem;">
+                    <div class="card-body">
+                      <h5 class="card-title text-white text-center text-semibold fs-4">Jagadeeswara Rao</h5>
+                      <p class="card-text fs-6 text-white text-center">Programme Officer</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="card border-0">
+                <div class="row g-1 d-flex align-items-center">
+                  <div class="col-3 col-md-4 bg-transparent position-relative">
+                    <img src="./images/Faculty/Asst_Prog_Officer_logo_1.png" class="card-img rounded-circle mx-auto d-block xs-image img1" alt="Asst. Prog. Officer">
+                  </div>
+                  <div class="col-9 col-md-8 rounded-5" style="background-color:#2D62B1; height:7rem; width:18rem; margin-left:-1.5rem;">
+                    <div class="card-body">
+                      <h5 class="card-title text-white text-center text-semibold fs-4">Bhaskara Rao</h5>
+                      <p class="card-text fs-6 text-white text-center">Asst. Programme Officer</p>
+                    </div>
+                  </div>
                 </div>
             </div>
         </div>
