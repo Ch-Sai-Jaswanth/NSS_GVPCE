@@ -39,6 +39,35 @@
                     width: 8rem;
                 }
             }
+            @media (min-width : 576px) and (max-width: 784px) {
+                .xs-class {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .xs-image {
+                    height: 8rem;
+                    width: 8rem;
+                }
+            }
+            @media (min-width : 576px) and (max-width: 784px) {
+                .ellipse {
+                    width: 25%;
+                    height: 20%;
+                }
+                .ellipse-text {
+                    left: 20%;
+                }
+            }
+            @media (max-width : 576px) {
+                .ellipse {
+                    width: 36%;
+                    height: 15%;
+                }
+                .ellipse-text {
+                    left: 20%;
+                }
+            }
         </style>
     </head>
     <body>
@@ -48,9 +77,9 @@
                     <div class="ellipse"></div>
                     <p class="fs-3 mt-4 fw-bold text-white ellipse-text">OUR TEAM</p>
                 </div>
-                <div class="col-4">
-                    <p class="fs-2 mt-4 fw-bold text-white text-end">NSS UNIT-1</p>
-                    <p class="fs-2 mt-4 fw-bold text-white text-end">NSS UNIT-2</p>
+                <div class="col-6">
+                    <p class="fs-2 mt-4 fw-bold text-white text-end row-8">NSS UNIT-1 </p>
+                    <p class="fs-2 mt-4 fw-bold text-white text-end row-8">NSS UNIT-2 </p>
                 </div>
             </div>
         </div>
