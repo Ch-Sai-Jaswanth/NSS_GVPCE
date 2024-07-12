@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>NSS GVPCE</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="./images/mainlogos/NSS_new_logo_1.png">
+    </head>
+    <body>
+        <header>
+            <div id="hrow">
+                <div class="htop">
+                    <div class="head">
+                        <img src="./images/mainlogos/GVP_logo_1.png" alt="GVPCE">
+                        <img src="./images/mainlogos/25Years_logo_1.png" alt="25 Years of Excellence">
+                        <div class="headpart">
+                            <h3>GAYATRI VIDYA PARISHAD</h3>
+                            <h3>COLLEGE OF ENGINEERING(A)</h3>
+                            <p>Approved by AICTE, New Delhi and Affiliated to Andhra University</p>
+                            <p>Madhurawada, Visakhapatnam - 530048</p>
+                        </div>
+                        <img src="./images/mainlogos/NSS_new_logo_1.png" alt="NSS">
+                        <img src="./images/mainlogos/CFSR_logo_1.jpg" alt="CFSR">
+                    </div>
+                    <div class="navbar">
+                        <nav>
+                            <ul>
+                                <li>&nbsp;&nbsp;</li>
+                                <li style="font-size: 25px;font-family:'Roboto slab';">NSS GVPCE(A)</li>
+                                <li>&nbsp;&nbsp;&nbsp;</li>
+                                <li>&nbsp;&nbsp;&nbsp;</li>
+                                <li>&nbsp;&nbsp;&nbsp;</li>
+                                <li><a href="#">Home</a></li>
+                    
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="#">Gallery</a></li>
+                                <li><a href="#">Events</a></li>
+                                <li><a href="#">Team</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </nav>
+                    </div>  
+                </div>
+            </div>
+        </header>
+    </body>
+</html>
